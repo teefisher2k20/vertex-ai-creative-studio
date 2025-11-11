@@ -1,0 +1,24 @@
+[FirebaseClient] - Skipping Firebase initialization (SKIP_FIREBASE_INIT=true)
+Initiating Gemini client for project glass-radar-476711-a6 in us-central1
+DEBUG: Loading video_processing.py at 2025-11-11 04:30:53.361481. Moviepy version: 2.1.2
+Initiating Gemini client for project glass-radar-476711-a6 in us-central1
+INFO:     Will watch for changes in these directories: ['/workspaces/vertex-ai-creative-studio']
+INFO:     Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)
+WARNING:  --reload-include and --reload-exclude have no effect unless watchfiles is installed.
+INFO:     Started reloader process [50333] using StatReload
+[FirebaseClient] - Skipping Firebase initialization (SKIP_FIREBASE_INIT=true)
+Initiating Gemini client for project glass-radar-476711-a6 in us-central1
+DEBUG: Loading video_processing.py at 2025-11-11 04:31:03.930223. Moviepy version: 2.1.2
+Initiating Gemini client for project glass-radar-476711-a6 in us-central1
+INFO:     Started server process [50438]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:33258 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:mesop.server.server:Static folder enabled: /workspaces/vertex-ai-creative-studio/static
+INFO:     127.0.0.1:52794 - "GET /home HTTP/1.1" 200 OK
+INFO:     Shutting down
+ERROR:    Cancel 0 running task(s), timeout graceful shutdown exceeded
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [50438]
+INFO:     Stopping reloader process [50333]
