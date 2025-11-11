@@ -59,11 +59,9 @@ class Default:
         "API_BASE_URL", f"http://localhost:{os.environ.get('PORT', '8080')}"
     )
 
-    SERVICE_ACCOUNT_EMAIL: str = os.environ.get("SERVICE_ACCOUNT_EMAIL")
+    SERVICE_ACCOUNT_EMAIL: str = os.environ.get("SERVICE_ACCOUNT_EMAIL", "admin@xennials.tech")
     # Gemini
-    PROJECT_ID: str = os.environ.get(
-        "GLASS_RADAR_476711_A6"
-    )
+    PROJECT_ID: str = os.environ.get("PROJECT_ID", "GLASS_RADAR_476711_A6")
     LOCATION: str = os.environ.get("LOCATION", "us-central1")
     GA_MEASUREMENT_ID: str = os.environ.get("GA_MEASUREMENT_ID")
     MODEL_ID: str = os.environ.get("MODEL_ID", "gemini-2.5-flash")
